@@ -1,0 +1,24 @@
+{
+  "name": "my_taste",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel ./*.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Wojciech Pyrlik",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "2.0.0-nightly.651",
+    "parcel": "2.0.0-nightly.649",
+    "sass": "^1.38.0"
+  },
+  "dependencies": {
+    "core-js": "^3.16.2",
+    "fractional": "^1.0.0",
+    "gh-pages": "^3.2.3",
+    "img": "^3.0.3",
+    "regenerator-runtime": "^0.13.9"
+  }
+}
